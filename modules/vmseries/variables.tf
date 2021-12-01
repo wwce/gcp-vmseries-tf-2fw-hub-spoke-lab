@@ -76,7 +76,7 @@ variable metadata_startup_script {
   type        = string
 }
 
-variable project {
+variable project_id {
   default = null
   type    = string
 }

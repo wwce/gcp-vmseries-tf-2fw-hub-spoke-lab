@@ -15,7 +15,7 @@ resource "google_compute_instance" "main" {
   labels                    = var.labels
   tags                      = var.tags
   metadata_startup_script   = var.metadata_startup_script
-  project                   = var.project
+  project                   = var.project_id
   resource_policies         = var.resource_policies
   can_ip_forward            = true
   allow_stopping_for_update = true
@@ -76,7 +76,7 @@ resource "google_compute_instance_group" "main" {
 
   name      = "${each.value.name}-${each.value.zone}-ig"
   zone      = each.value.zone
-  project   = var.project
+  project   = var.project_id
   instances = [google_compute_instance.main[each.key].self_link]
 
   dynamic "named_port" {

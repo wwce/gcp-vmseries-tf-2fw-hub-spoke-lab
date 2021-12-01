@@ -65,7 +65,7 @@ module "vmseries" {
   image_name            = var.fw_image_name
   machine_type          = var.fw_machine_type
   create_instance_group = true
-  project               = var.project_id
+  project_id               = data.google_client_config.current.project
   ssh_key               = fileexists(var.public_key_path) ? "admin:${file(var.public_key_path)}" : ""
   
   instances = { 
