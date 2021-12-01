@@ -11,8 +11,8 @@ Please see the [**Deployment Guide**](https://github.com/wwce/terraform/blob/mas
 
 
 ## Prerequistes 
-* Valid GCP Account with existing project
-* Access to GCP Cloud Terminal or to a machine with a Terraform 12 installation
+* Valid GCP Account with existing project.
+* Access to GCP Cloud Terminal or to a machine with a Terraform v1.0 installation.
 
 </br>
 
