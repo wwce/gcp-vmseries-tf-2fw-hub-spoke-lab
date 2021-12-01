@@ -20,15 +20,15 @@ Please see the [**Deployment Guide**](https://github.com/wwce/terraform/blob/mas
 ### 1. Setup & Download Build
 In your project, open GCP Cloud Terminal and run the following.
 ```
-$ gcloud services enable compute.googleapis.com
-$ ssh-keygen -f ~/.ssh/gcp-demo -t rsa -C gcp-demo
-$ git clone https://github.com/wwce/gcp-vmseries-tf-2fw-hub-spoke-lab; cd gcp-vmseries-tf-2fw-hub-spoke-lab
+gcloud services enable compute.googleapis.com
+ssh-keygen -f ~/.ssh/gcp-demo -t rsa -C gcp-demo
+git clone https://github.com/wwce/gcp-vmseries-tf-2fw-hub-spoke-lab; cd gcp-vmseries-tf-2fw-hub-spoke-lab
 ```
 
 ### 2. Deploy Build
 ```
-$ terraform init
-$ terraform apply
+terraform init
+terraform apply
 ```
 
 </br>
@@ -36,8 +36,8 @@ $ terraform apply
 ## How to Destroy
 Run the following to destroy the build and remove the SSH key created in step 1.
 ```
-$ terraform destroy
-$ rm ~/.ssh/gcp-demo*
+terraform destroy
+rm ~/.ssh/gcp-demo*
 ```
 
 </br>
