@@ -364,7 +364,7 @@
                       <hold-time>2</hold-time>
                     </path-monitor>
                     <nexthop>
-                      <ip-address>10.0.2.1</ip-address>
+                      <ip-address>192.168.2.1</ip-address>
                     </nexthop>
                     <bfd>
                       <profile>None</profile>
@@ -383,7 +383,7 @@
                       <hold-time>2</hold-time>
                     </path-monitor>
                     <nexthop>
-                      <ip-address>10.0.2.1</ip-address>
+                      <ip-address>192.168.2.1</ip-address>
                     </nexthop>
                     <bfd>
                       <profile>None</profile>
@@ -402,7 +402,7 @@
                       <hold-time>2</hold-time>
                     </path-monitor>
                     <nexthop>
-                      <ip-address>10.0.2.1</ip-address>
+                      <ip-address>192.168.2.1</ip-address>
                     </nexthop>
                     <bfd>
                       <profile>None</profile>
@@ -421,7 +421,7 @@
                       <hold-time>2</hold-time>
                     </path-monitor>
                     <nexthop>
-                      <ip-address>10.0.2.1</ip-address>
+                      <ip-address>192.168.2.1</ip-address>
                     </nexthop>
                     <bfd>
                       <profile>None</profile>
@@ -440,7 +440,7 @@
                       <hold-time>2</hold-time>
                     </path-monitor>
                     <nexthop>
-                      <ip-address>10.0.2.1</ip-address>
+                      <ip-address>192.168.2.1</ip-address>
                     </nexthop>
                     <bfd>
                       <profile>None</profile>
