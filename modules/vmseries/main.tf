@@ -58,8 +58,6 @@ resource "google_compute_instance" "main" {
     }
   }
 
-  # TODO: var.linux_fake  -> 0.0/0 route for both nic0 and nic1 -> ip vrf add nic1 ; ip ro add 0.0.0.0/0
-
   boot_disk {
     initialize_params {
       image = "${var.image_prefix_uri}${var.image_name}"
