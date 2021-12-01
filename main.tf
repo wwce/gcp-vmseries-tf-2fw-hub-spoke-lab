@@ -23,13 +23,6 @@ resource "random_string" "main" {
   special     = false
 }
 
-resource "google_project_service" "service_networking" {
-  #project = var.project_id
-  service                    = "compute.googleapis.com"
-  disable_dependent_services = false
-  disable_on_destroy         = false
-}
-
 locals {
   prefix = random_string.main.result
 }
