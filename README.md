@@ -70,7 +70,8 @@ In this section, we will walk through how to deploy the environment using Terraf
 gcloud services enable compute.googleapis.com
 ssh-keygen -f ~/.ssh/gcp-demo -t rsa -C gcp-demo
 ```
-<span style="color:red">**Note.** If you are using a SSH key name that is different from `gcp-demo` name, you must modify the `public_key_path` variable in your terraform.tfvars file to match the name of the key you created.</span>.
+<span style="color:red">**Note.** If you are using a SSH key name that is different from `gcp-demo` name, you must modify the `public_key_path` variable in your terraform.tfvars file to match the name of the key you created.</span>
+
 
 3. Copy and paste the following to clone the repository and to apply the Terraform plan.
 ```
