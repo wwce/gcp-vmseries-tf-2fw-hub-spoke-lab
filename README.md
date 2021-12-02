@@ -225,7 +225,7 @@ curl http://10.1.0.10/?[1-1000]
 
 
 
-1. On both VM-Series, navigate to **Monitor → Traffic**.  Enter the following filter into the log filtering field.  This query will display all traffic from between spoke2-vm1 and our internal load balancer in spoke1. 
+2. On both VM-Series, navigate to **Monitor → Traffic**.  Enter the following filter into the log filtering field.  This query will display all traffic from between spoke2-vm1 and our internal load balancer in spoke1. 
 
 ```
 ( addr.src in 10.2.0.10 ) and  ( addr.dst in 10.1.0.10 )
