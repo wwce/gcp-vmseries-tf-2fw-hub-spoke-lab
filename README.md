@@ -120,7 +120,7 @@ In this section, we will demonstrate internet inbound traffic through the VM-Ser
 
 ![alt_text](images/image8.png "image_tooltip")
 
-2. Try refreshing the web-page several times.  The **SOURCE IP **and **LOCAL IP** values will eventually change.  This demonstrates the Google Cloud traffic distribution capabilities between the VM-Series firewalls and the internal web application in spoke1.
+2. Try refreshing the web-page several times.  The **SOURCE IP** and **LOCAL IP** values will eventually change.  This demonstrates the Google Cloud traffic distribution capabilities between the VM-Series firewalls and the internal web application in spoke1.
 
 ![alt_text](images/image9.png "image_tooltip")
 
